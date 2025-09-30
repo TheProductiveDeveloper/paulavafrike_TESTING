@@ -40,7 +40,18 @@
         <div class="w3-light-grey w3-round-xlarge">
           <div class="w3-container w3-blue w3-round-xlarge" style="width: {{ raised_percent }}%">{{ raised_percent }}%</div>
         </div>
-        <p>Získaných {{ raised }} z {{ goal }}</p>
+        <p>Získaných <span id="raised"></span> z <span id="goal"></span></p>
+
+        <script>
+          const goal = {{ goal }};
+          const raised = {{ raised }};
+          
+          const raisedEl = document.getElementById('raised');
+          const goalEl = document.getElementById('goal');
+          
+          raisedEl.textContent = raised.toLocaleString() + " EUR";
+          goalEl.textContent = goal.toLocaleString() + " EUR";
+        </script>
         
         <div class="donated">
           <p class="donated__header">Už darovali</p>
