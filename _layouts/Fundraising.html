@@ -25,6 +25,28 @@
 
       </section>
       <footer>
+        <div class="donated">
+            <p class="donated__header">Už darovali FINAL</p>
+            <table class="donated__table">
+                <tbody>
+                    {% for darca in site.data.darcovia %}
+                        <tr class="donated__row">
+                            <td class="donated__col">{{ darca.meno }}
+                            </td>
+                            <td class="donated__col">{{ darca.sprava }}
+                            </td>
+                            <td class="donated__col">{{ darca.suma }}
+                                €
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="donate_legend">
+                {{ site.data.darcovia | size }}
+                darov
+            </div>
+        </div>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
