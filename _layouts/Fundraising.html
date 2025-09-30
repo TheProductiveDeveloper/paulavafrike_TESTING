@@ -1,3 +1,14 @@
+{% assign raised = 0 %}
+{% for row in site.data.darcovia %}
+  {% assign raised = raised | plus: row.suma %}
+{% endfor %}
+{% assign goal = 10000 %}
+{% assign raised_percent = raised | times: 100 | divided_by: goal %}
+{% if raised_percent > 100 %}
+  {% assign raised_percent = 100 %}
+{% endif %}
+
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "sk" }}">
   <head>
@@ -29,7 +40,7 @@
         {% endif %}
       
         <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-container w3-blue w3-round-xlarge" style="width:25%">25%</div>
+          <div class="w3-container w3-blue w3-round-xlarge" style="width: {{ raised_percent }} %">{{ raised_percent }}%</div>
         </div>
         
         <div class="donated">
