@@ -137,6 +137,31 @@
         </div>
         <small>Ak si želáte zostať v anonymite, pridajte prosím do poznámky k platbe text „Anonymný podporovateľ“.</small>
         <br /><br /><br />
+      </header>
+      <section>
+
+      {{ content }}
+
+
+        <div class="share-buttons">
+          <button class="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href),'_blank')">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </button>
+        
+          <button class="instagram" onclick="window.open('https://www.instagram.com/?url=' + encodeURIComponent(window.location.href),'_blank')">
+            <i class="fab fa-instagram"></i> Instagram
+          </button>
+        
+          <button class="linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(window.location.href),'_blank')">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </button>
+        
+          <button class="x" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href),'_blank')">
+            <i class="fab fa-twitter"></i> X
+          </button>
+        </div>
+      </section>
+      <footer style="position: static;">
         <div class="donated">
           <p class="donated__header">Už darovali</p>
           <table class="donated__table">
@@ -163,32 +188,6 @@
               darov
           </div>
         </div>
-      </header>
-      <section>
-
-      {{ content }}
-
-
-        <div class="share-buttons">
-          <button class="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href),'_blank')">
-            <i class="fab fa-facebook-f"></i> Facebook
-          </button>
-        
-          <button class="instagram" onclick="window.open('https://www.instagram.com/?url=' + encodeURIComponent(window.location.href),'_blank')">
-            <i class="fab fa-instagram"></i> Instagram
-          </button>
-        
-          <button class="linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(window.location.href),'_blank')">
-            <i class="fab fa-linkedin-in"></i> LinkedIn
-          </button>
-        
-          <button class="x" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href),'_blank')">
-            <i class="fab fa-twitter"></i> X
-          </button>
-        </div>
-      </section>
-      <footer>
-
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
