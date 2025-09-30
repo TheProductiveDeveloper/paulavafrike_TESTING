@@ -63,51 +63,50 @@
     <div class="wrapper">
       <header style="position: static;">
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
       
         <div class="progress-container">
-            <div id="progress" class="progress-bar" style="width: {{ raised_percent }}%;"> {{ raised_percent }}%</div>
+          <div id="progress" class="progress-bar" style="width: {{ raised_percent }}%;"> {{ raised_percent }}%</div>
         </div>
         <p>Získaných <span id="raised"></span> z <span id="goal"></span></p>
-
-        <div style="padding: 3px;">
-          <div style="display: flex;">
-            <div style="padding: 3px; margin-right: 10px;">
-            <b>Podporiť platbou na účet </b><i>(preferované kvôli poplatkom za platbu kartou):</i>
-            </div>
-            <div style="padding: 3px; align-self: center;">
-              <img src="https://raw.githubusercontent.com/jan-revay/PaulaVAfrike-Jekyll-minimal/refs/heads/master/assets/img/QR_CU_PAULI.png"  style="max-height: 120px;" />
-            </div>
-          </div>
-          <h4>IBAN: SK77 1100 0000 0029 3326 3792<br />SWIFT: TATRSKBX resp. TATRSKBXXXX</h4>
-        </div>
-
-        <div style="display: flex;">
-          <div style="padding: 3px; margin-right: 10px;">
-            <b>Podporiť cez PayPal (kartou):</b>
-          </div>
-          <div style="padding: 3px; align-self: center;">
-            <!-- PayPal Donate Button -->
-            <form action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="hosted_button_id" value="BWXQJ9XW2JCC4" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_SK/i/scr/pixel.gif" width="1" height="1" />
-            </form>
-          </div>
-        </div>
-
         <script>
           const goal = {{ goal }};
           const raised = {{ raised }};
-          
+      
           const raisedEl = document.getElementById('raised');
           const goalEl = document.getElementById('goal');
-          
+      
           raisedEl.textContent = raised.toLocaleString("sk") + " EUR";
           goalEl.textContent = goal.toLocaleString("sk") + " EUR";
         </script>
-        
+      
+        <div style="display: flex;">
+          <div>
+            <b>Podporiť platbou na účet </b><i>(preferované kvôli poplatkom za platbu kartou):</i>
+          </div>
+          <div>
+            <img
+              src="https://raw.githubusercontent.com/jan-revay/PaulaVAfrike-Jekyll-minimal/refs/heads/master/assets/img/QR_CU_PAULI.png"
+              style="max-height: 120px; min-width: 50%;" />
+          </div>
+        </div>
+        <h4>IBAN: SK77 1100 0000 0029 3326 3792<br />SWIFT: TATRSKBX resp. TATRSKBXXXX</h4>
+      
+        <div style="display: flex;">
+          <div>
+            <b>Podporiť cez PayPal (kartou):</b>
+          </div>
+          <div>
+            <!-- PayPal Donate Button -->
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+              <input type="hidden" name="hosted_button_id" value="BWXQJ9XW2JCC4" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+                title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+              <img alt="" border="0" src="https://www.paypal.com/en_SK/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+          </div>
+        </div>
       </header>
       <section>
 
