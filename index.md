@@ -3,7 +3,7 @@ layout: Fundraising
 title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
-![cover photo](assets/img/darujme-pauli-velky-obr.jpeg)
+<img src="/paulavafrike/assets/img/darujme-pauli-velky-obr.jpeg" alt="cover photo" style="border-radius: 3px;">
 <br /><br />
 
 # Afrika si ma zavolala
