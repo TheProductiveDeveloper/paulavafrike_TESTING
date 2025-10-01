@@ -3,10 +3,9 @@ layout: Fundraising
 title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
-{: .w3-card }
 ![cover photo](assets/img/darujme-pauli-velky-obr.jpeg)
-
 <br /><br />
+
 # Afrika si ma zavolala
 
 ## Ako som sa dostala k misii?
