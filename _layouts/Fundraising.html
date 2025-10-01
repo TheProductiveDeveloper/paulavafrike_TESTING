@@ -125,35 +125,37 @@
           raisedEl.textContent = raised.toLocaleString("sk") + " EUR";
           goalEl.textContent = goal.toLocaleString("sk") + " EUR";
         </script>
-      <div style="padding: 10px; background: #d8ebf1; border-radius: 10px;">
-        <div style="display: flex;">
-          <div style="margin-right: 15px;">
-            <h4 style="margin: 0px">Podporiť platbou na účet:</h4><small>(preferované kvôli poplatkom za platbu kartou)</small>
+
+        <div style="padding: 10px; background: #d8ebf1; border-radius: 10px;">
+          
+          <div style="display: flex;">
+            <div style="margin-right: 15px;">
+              <h4 style="margin: 0px">Podporiť platbou na účet:</h4><small>(preferované kvôli poplatkom za platbu kartou)</small>
+            </div>
+            <div>
+              <img
+                src="assets/img/QR_CU_Pauli_no_msg_no_sum.png"
+                style="max-height:250px;" />
+            </div>
           </div>
-          <div>
-            <img
-              src="assets/img/QR_CU_Pauli_no_msg_no_sum.png"
-              style="max-height:250px;" />
+          <h5>IBAN: SK77 1100 0000 0029 3326 3792<br />SWIFT: TATRSKBX resp. TATRSKBXXXX<br />Názov účtu: Paulína Hírešová</h5>
+        
+          <div style="display: flex;">
+            <div>
+              <h4>Podporiť cez PayPal (kartou):</h4>
+            </div>
+            <div>
+              <!-- PayPal Donate Button -->
+              <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="hosted_button_id" value="BWXQJ9XW2JCC4" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+                  title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_SK/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+            </div>
           </div>
-        </div>
-        <h5>IBAN: SK77 1100 0000 0029 3326 3792<br />SWIFT: TATRSKBX resp. TATRSKBXXXX<br />Názov účtu: Paulína Hírešová</h5>
-      
-        <div style="display: flex;">
-          <div>
-            <h4>Podporiť cez PayPal (kartou):</h4>
-          </div>
-          <div>
-            <!-- PayPal Donate Button -->
-            <form action="https://www.paypal.com/donate" method="post" target="_top">
-              <input type="hidden" name="hosted_button_id" value="BWXQJ9XW2JCC4" />
-              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-                title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-              <img alt="" border="0" src="https://www.paypal.com/en_SK/i/scr/pixel.gif" width="1" height="1" />
-            </form>
-          </div>
-        </div>
-        <small>Ak si želáte zostať v anonymite, pridajte prosím do poznámky k platbe text „Anonymný podporovateľ“.</small>
-        <br /><br />
+          <small>Ak si želáte zostať v anonymite, pridajte prosím do poznámky k platbe text „Anonymný podporovateľ“.</small>
+          <br /><br />
         </div>
           
         <br />
@@ -182,32 +184,34 @@
         </div>
       </section>
       <footer style="position: static;">
-        <div class="donated">
-          <p class="donated__header">Už darovali</p>
-          <table class="donated__table">
-              <colgroup>
-                <col>
-                <col>
-                <col style="min-width: 8ch;">
-              </colgroup>
-              <tbody>
-                  {% for darca in site.data.darcovia %}
-                      <tr class="donated__row">
-                          <td class="donated__col">{{ darca.meno }}
-                          </td>
-                          <td class="donated__col">{{ darca.sprava }}
-                          </td>
-                          <td class="donated__col">{{ darca.suma }} €
-                          </td>
-                      </tr>
-                  {% endfor %}
-              </tbody>
-          </table>
-          <div class="donated_legend">
-              {{ site.data.darcovia | size }}
-              darov
+        <small>
+          <div class="donated">
+            <p class="donated__header">Už darovali</p>
+            <table class="donated__table">
+                <colgroup>
+                  <col>
+                  <col>
+                  <col style="min-width: 8ch;">
+                </colgroup>
+                <tbody>
+                    {% for darca in site.data.darcovia %}
+                        <tr class="donated__row">
+                            <td class="donated__col">{{ darca.meno }}
+                            </td>
+                            <td class="donated__col">{{ darca.sprava }}
+                            </td>
+                            <td class="donated__col">{{ darca.suma }} €
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="donated_legend">
+                {{ site.data.darcovia | size }}
+                darov
+            </div>
           </div>
-        </div>
+        </small>
         <br /><br />
       </footer>
     </div>
