@@ -2,7 +2,7 @@
 {% for row in site.data.darcovia -%}
   {% assign raised = raised | plus: row.suma -%}
 {% endfor -%}
-{% assign goal = 3000 -%}
+{% assign goal = 4000 -%}
 {% assign raised_percent = raised | times: 100 | divided_by: goal -%}
 {% if raised_percent > 100 -%}
   {% assign raised_percent = 100 -%}
