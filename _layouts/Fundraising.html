@@ -106,6 +106,35 @@
       /* w3.css */
       .w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
       .w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+
+      body {
+      /* Center background (main content area) */
+      background-color: #cdb39a;
+    
+      /* Create a "frame" effect using layered backgrounds */
+      background-image:
+        linear-gradient(white, white), /* mask for center */
+        url("assets/img/Test_tile.png"); /* tiled image */
+    
+      background-repeat:
+        no-repeat,
+        repeat; /* only the second one tiles */
+    
+      background-position:
+        center,
+        top left; /* where the tile pattern starts */
+    
+      background-size:
+        calc(100% - 200px) calc(100% - 200px), /* inner white box size */
+        auto; /* normal tile size */
+    
+      background-origin: content-box;
+      background-clip: content-box, border-box;
+    
+      /* Optional: make sure page covers full viewport */
+      min-height: 100vh;
+      color: #3e3e3e;
+    }
       
     </style>
   </head>
