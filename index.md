@@ -35,4 +35,4 @@ Ak by ste sa chceli stať súčasťou tohto dobrodružstva, dostávať bližšie
 Paulína Hírešová
 <br />
 <br />
-<img src="aassets/img/cernoskovia.png" alt="cover photo" style="border-radius: 20px;" />
+<img src="assets/img/cernoskovia.png" alt="foto s deckami" style="border-radius: 20px;" />
