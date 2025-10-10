@@ -3,7 +3,7 @@ layout: Fundraising
 title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
-<img src="assets/img/darujme-pauli-velky-obr.jpeg" alt="cover photo" style="border-radius: 3px;">
+<img src="assets/img/darujme-pauli-velky-obr.jpeg" alt="cover photo" style="border-radius: 3px;" />
 <br /><br />
 
 # Afrika si ma zavolala
@@ -33,3 +33,6 @@ Ako misijná dobrovoľníčka nebudem dostávať za moju prácu žiadnu finančn
 Ak by ste sa chceli stať súčasťou tohto dobrodružstva, dostávať bližšie informácie z miesta môjho pôsobiska a sledovať moju misiu v Angole, môžete mi zaslať svoju emailovú adresu na paula.v.afrike@gmail.com a ja Vás budem pravidelne informovať.
 
 Paulína Hírešová
+<br />
+<br />
+<img src="aassets/img/cernoskovia.png" alt="cover photo" style="border-radius: 20px;" />
