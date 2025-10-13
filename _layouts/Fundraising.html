@@ -96,36 +96,14 @@
       .w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
 
       body {
-  
       /* Create a "frame" effect using layered backgrounds */
-      background-image:
-        linear-gradient(#cdb39a, #cdb39a), /* mask for center */
-        url("assets/img/Test_tile.png"); /* tiled image */
-    
-      background-repeat:
-        no-repeat,
-        repeat; /* only the second one tiles */
-    
-      background-position:
-        center,
-        top left; /* where the tile pattern starts */
-    
-      background-size:
-        calc(100% - 200px) calc(100% - 200px), /* inner white box size */
-        auto; /* normal tile size */
-    
-      background-origin: content-box;
-      background-clip: content-box, border-box;
-    
-      /* Optional: make sure page covers full viewport */
-      min-height: 100vh;
-      color: #3e3e3e;
-    }
+        background-image: linear-gradient(#f8e8d8, #cdb39a); /* tiled image */
+        color: #3e3e3e;
+      }
       
     </style>
   </head>
   <body>
-    <img src="assets/img/title_img.png" />
     <div class="wrapper">
       <header style="position: static;">
         {% if site.logo %}
