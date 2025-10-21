@@ -33,7 +33,9 @@ V Angole dlhé roky panovala občianska vojna. Dnes to tak, našťastie, už nie
 
 {: .justify }
 Ako misijná dobrovoľníčka nebudem dostávať za moju prácu žiadnu finančnú odmenu. Aby som vedela túto službu vykonávať, budem potrebovať vašu pomoc. Budem veľmi vďačná za každú finančnú podporu. Vaše dary mi pomôžu pokryť tento rok a ja budem môcť odvážnejšie vykročiť v ústrety tomuto dobrodružstvu v Afrike, ktorá si ma zavolala.
+</div>
 
+<div markdown="1" class="contact">
 {: .justify }
 Ak by ste sa chceli stať súčasťou tohto dobrodružstva, dostávať bližšie informácie z miesta môjho pôsobiska a sledovať moju misiu v Angole, môžete mi zaslať svoju emailovú adresu na paula.v.afrike@gmail.com a ja Vás budem pravidelne informovať.
 
