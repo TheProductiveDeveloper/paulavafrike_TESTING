@@ -41,5 +41,4 @@ Paulína Hírešová
 </div>
 
 <br />
-<br />
 <img src="assets/img/cernoskovia.png" alt="foto s deckami" style="border-radius: 20px;" />
