@@ -36,9 +36,10 @@ Ako misijná dobrovoľníčka nebudem dostávať za moju prácu žiadnu finančn
 
 {: .justify }
 Ak by ste sa chceli stať súčasťou tohto dobrodružstva, dostávať bližšie informácie z miesta môjho pôsobiska a sledovať moju misiu v Angole, môžete mi zaslať svoju emailovú adresu na paula.v.afrike@gmail.com a ja Vás budem pravidelne informovať.
-</div>
 
 Paulína Hírešová
+</div>
+
 <br />
 <br />
 <img src="assets/img/cernoskovia.png" alt="foto s deckami" style="border-radius: 20px;" />
