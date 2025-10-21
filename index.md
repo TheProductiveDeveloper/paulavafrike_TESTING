@@ -6,8 +6,6 @@ title: Afrika si ma zavolala - Paulína Hírešová
 <img src="assets/img/Afrika_si_ma_zavolala_cover.png" alt="cover photo" style="border-radius: 3px;" />
 <br /><br />
 
-# Afrika si ma zavolala
-
 <div markdown="1" class="dotted-text-bubble">
 ## Ako som sa dostala k misii?
 
