@@ -3,7 +3,7 @@ layout: Fundraising
 title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
-<img src="assets/img/Afrika_si_ma_zavolala_cover.png" alt="cover photo" style="border-radius: 3px;" />
+<img src="assets/img/cover.png alt="cover image" style="border-radius: 3px;" />
 <br /><br />
 
 <div markdown="1" class="dotted-text-bubble">
@@ -45,4 +45,5 @@ Paulína Hírešová
 </div>
 
 <br />
-<img src="assets/img/cernoskovia.png" alt="foto s deckami" style="border-radius: 20px;" />
+<img src="assets/img/class.jpeg alt="Trieda Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px;" />
+<img src="assets/img/2_children.jpeg alt="2 deti v Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px;" />
