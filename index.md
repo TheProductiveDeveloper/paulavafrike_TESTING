@@ -3,10 +3,11 @@ layout: Fundraising
 title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
-<img src="assets/img/cover.png alt="cover image" style="border-radius: 3px;" />
+<img src="assets/img/cover.png" alt="cover image" style="border-radius: 3px;" />
 <br /><br />
 
 <div markdown="1" class="dotted-text-bubble">
+
 ## Ako som sa dostala k misii?
 
 {: .justify }
@@ -15,6 +16,7 @@ volám sa Paula, mám 25 rokov a študujem učiteľstvo primárneho vzdelávania
 </div>
 
 <div markdown="1" class="dotted-text-bubble">
+
 ## Čo budem robiť v Afrike?
 
 {: .justify }
@@ -22,6 +24,7 @@ Prostredníctvom misijnej organizácie SAVIO, o. z., budem na tomto mieste pomá
 </div>
 
 <div markdown="1" class="dotted-text-bubble">
+
 ## Aká je Angola?
 
 {: .justify }
@@ -29,13 +32,15 @@ V Angole dlhé roky panovala občianska vojna. Dnes to tak, našťastie, už nie
 </div>
 
 <div markdown="1" class="dotted-text-bubble">
+
 ## Prečo potrebujem vašu pomoc?
 
 {: .justify }
 Ako misijná dobrovoľníčka nebudem dostávať za moju prácu žiadnu finančnú odmenu. Aby som vedela túto službu vykonávať, budem potrebovať vašu pomoc. Budem veľmi vďačná za každú finančnú podporu. Vaše dary mi pomôžu pokryť tento rok a ja budem môcť odvážnejšie vykročiť v ústrety tomuto dobrodružstvu v Afrike, ktorá si ma zavolala.
 </div>
 
-<div markdown="1" class="contact">
+<div markdown="1" class="dotted-text-bubble">
+
 ## Zaujíma vás o mojej misii v Angole niečo viac?
   
 {: .justify }
@@ -45,5 +50,5 @@ Paulína Hírešová
 </div>
 
 <br />
-<img src="assets/img/class.jpeg alt="Trieda Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px;" />
-<img src="assets/img/2_children.jpeg alt="2 deti v Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px;" />
+<img src="assets/img/class.jpeg" alt="Trieda Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px;" />
+<img src="assets/img/2_children.jpeg" alt="2 deti v Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px;" />
