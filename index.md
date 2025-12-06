@@ -45,9 +45,7 @@ Ako misijná dobrovoľníčka nebudem dostávať za moju prácu žiadnu finančn
 {: .justify }
 Ak by ste sa chceli stať súčasťou tohto dobrodružstva, dostávať bližšie informácie z miesta môjho pôsobiska a sledovať moju misiu v Angole, môžete mi zaslať svoju emailovú adresu na:
 
-[paula.v.afrike@gmail.com](mailto:paula.v.afrike@gmail.com)
-
-a ja Vás budem pravidelne informovať.
+paula.v.afrike@gmail.com a ja Vás budem pravidelne informovať.
 
 Paulína Hírešová
 </div>
