@@ -4,7 +4,6 @@ title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
 <img src="assets/img/cover.png" alt="cover image" style="border-radius: 3px;" />
-<br />
 
 <div markdown="1" class="dotted-text-bubble">
 
