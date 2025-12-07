@@ -35,105 +35,129 @@
     {% include head-custom.html %}
 
     <style>
-      small {
-        font-size: 12px;
-      }
-      /* .donated {
-        background: #f3f3f3;
-        border-radius: 10px;
-        padding-bottom: 12px;
-        padding-top: 5px;
-      }
-      .donated__header {
-        font-size: 1.2rem;
-        font-weight: 900;
-        text-align: center;
-      }
-      .donated_legend {
-        font-size: 0.8rem;
-        text-align: center;
-      } */
-      .justify {
-        text-align: justify;
-        hyphens: auto;
-      }
-      .progress-container {
-        margin: 5px 0;
-        background: #f6f6f6;
-        border-radius: 20px;
-        overflow: hidden;
-      }
-      .progress-bar {
-        height: 25px;
-        background: #4caf50;
-        width: 0%;
-        line-height: 25px;
-        color: white;
-        font-weight: bold;
-        transition: width 1s;
-        padding-left: 15px;
-      }
-
-      /* Share buttons */
-
-      .share-buttons {
-         display: flex;
-         gap: 10px;
-         flex-wrap: wrap;
-         justify-content: center;
-       }
-      .share-buttons button {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        padding: 10px 15px;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        cursor: pointer;
-        font-size: 16px;
-        transition: transform 0.2s;
-      }
-      .share-buttons button:hover {
-        transform: scale(1.03);
-      }
-      .facebook { background: #3b5998; }
-      .instagram { background: #E1306C; }
-      .linkedin { background: #0077b5; }
-      .x { background: #1DA1F2; }
-
-
-      /* w3.css */
-      .w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
-      .w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
-
-      body {
+    small {
+      font-size: 12px;
+    }
+    
+    .justify {
+      text-align: justify;
+      hyphens: auto;
+    }
+    
+    .progress-container {
+      margin: 5px 0;
+      background: #f6f6f6;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    
+    .progress-bar {
+      height: 25px;
+      background: #4caf50;
+      width: 0%;
+      line-height: 25px;
+      color: white;
+      font-weight: bold;
+      transition: width 1s;
+      padding-left: 15px;
+    }
+    
+    .share-buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .share-buttons button {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      transition: transform 0.2s;
+    }
+    
+    .share-buttons button:hover {
+      transform: scale(1.03);
+    }
+    
+    .facebook {
+      background: #3b5998;
+    }
+    
+    .instagram {
+      background: #E1306C;
+    }
+    
+    .linkedin {
+      background: #0077b5;
+    }
+    
+    .x {
+      background: #1DA1F2;
+    }
+    
+    /* w3.css */
+    .w3-card,
+    .w3-card-2 {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    }
+    
+    .w3-card-4,
+    .w3-hover-shadow:hover {
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+    
+    body {
       /* Create a "frame" effect using layered backgrounds */
-        background-image: linear-gradient(#d6c4b0, #cdb39a); /* tiled image */
-        color: #3e3e3e;
-      }
-      .dotted-text-bubble {
-        padding: 20px;
-        padding-bottom: 20px;
-        border-radius: 20px;
-        border: 3px dotted rgba(0,0,0,0.38);
-        margin-bottom: 2ch;
-        background: #c6aba2;
-        padding-bottom: 0px;
-      }
-
-      .contact {
-        /* TODO use dotted-text-bubble to fix the style */
-        margin-top: 28px;
-        background: #b76d36;
-        padding: 18px;
-        border-radius: 20px;
-        color: #332929;
-      }
-      h2 {
-        text-transform: uppercase;
-      }
-      
+      background-image: linear-gradient(#d6c4b0, #cdb39a);
+      /* tiled image */
+      color: #3e3e3e;
+    }
+    
+    .dotted-text-bubble {
+      padding: 20px;
+      padding-bottom: 20px;
+      border-radius: 20px;
+      border: 3px dotted rgba(0, 0, 0, 0.38);
+      margin-bottom: 2ch;
+      background: #c6aba2;
+      padding-bottom: 0px;
+    }
+    
+    .contact {
+      /* TODO use dotted-text-bubble to fix the style */
+      margin-top: 28px;
+      background: #b76d36;
+      padding: 18px;
+      border-radius: 20px;
+      color: #332929;
+    }
+    
+    h2 {
+      text-transform: uppercase;
+    }
+    
+    /* .donated {
+            background: #f3f3f3;
+            border-radius: 10px;
+            padding-bottom: 12px;
+            padding-top: 5px;
+          }
+          .donated__header {
+            font-size: 1.2rem;
+            font-weight: 900;
+            text-align: center;
+          }
+          .donated_legend {
+            font-size: 0.8rem;
+            text-align: center;
+          } */
     </style>
   </head>
   <body>
