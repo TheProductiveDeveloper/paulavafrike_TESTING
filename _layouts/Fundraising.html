@@ -38,12 +38,21 @@
       small {
         font-size: 12px;
       }
-      .donated {
+      /* .donated {
         background: #f3f3f3;
         border-radius: 10px;
         padding-bottom: 12px;
         padding-top: 5px;
       }
+      .donated__header {
+        font-size: 1.2rem;
+        font-weight: 900;
+        text-align: center;
+      }
+      .donated_legend {
+        font-size: 0.8rem;
+        text-align: center;
+      } */
       .justify {
         text-align: justify;
         hyphens: auto;
@@ -63,15 +72,6 @@
         font-weight: bold;
         transition: width 1s;
         padding-left: 15px;
-      }
-      .donated__header {
-        font-size: 1.2rem;
-        font-weight: 900;
-        text-align: center;
-      }
-      .donated_legend {
-        font-size: 0.8rem;
-        text-align: center;
       }
 
       /* Share buttons */
@@ -178,14 +178,11 @@
             </div>
           </div> -->
         </div>
-          
         <br />
       </header>
-      <!-- <section style="padding: 15px; padding-bottom: 30px; background: #f3f3f3; border-radius: 15px;" class="w3-card"> -->
       <section>
 
-      {{ content }}
-
+        {{ content }}
 
         <div class="share-buttons">
           <button class="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href),'_blank')">
