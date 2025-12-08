@@ -51,4 +51,3 @@ Paulína Hírešová
 <img src="assets/img/class.jpeg" alt="Trieda Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);" />
 <br /><br />
 <img src="assets/img/2_children.jpeg" alt="2 deti v Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);" />
-
