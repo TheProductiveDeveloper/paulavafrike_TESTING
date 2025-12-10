@@ -140,8 +140,8 @@
         </div>
         <p>Získaných <span id="raised"></span> zo <span id="goal"></span></p>
         <script>
-          const goal = {{ goal }};
-          const raised = {{ raised }};
+          const goal = {{ goal | jsonify }};
+          const raised = {{ raised | jsonify }};
       
           const raisedEl = document.getElementById('raised');
           const goalEl = document.getElementById('goal');
