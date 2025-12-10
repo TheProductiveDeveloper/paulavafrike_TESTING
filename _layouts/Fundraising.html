@@ -115,50 +115,22 @@
     }
     
     body {
-      /* Create a "frame" effect using layered backgrounds */
       background-image: linear-gradient(#d6c4b0, #cdb39a);
-      /* tiled image */
       color: #3e3e3e;
     }
     
     .dotted-text-bubble {
       padding: 20px;
-      padding-bottom: 20px;
+      padding-bottom: 0px;
       border-radius: 20px;
       border: 3px dotted rgba(0, 0, 0, 0.38);
       margin-bottom: 2ch;
       background: #c6aba2;
-      padding-bottom: 0px;
     }
-    
-    .contact {
-      /* TODO use dotted-text-bubble to fix the style */
-      margin-top: 28px;
-      background: #b76d36;
-      padding: 18px;
-      border-radius: 20px;
-      color: #332929;
-    }
-    
+
     h2 {
       text-transform: uppercase;
     }
-    
-    /* .donated {
-            background: #f3f3f3;
-            border-radius: 10px;
-            padding-bottom: 12px;
-            padding-top: 5px;
-          }
-          .donated__header {
-            font-size: 1.2rem;
-            font-weight: 900;
-            text-align: center;
-          }
-          .donated_legend {
-            font-size: 0.8rem;
-            text-align: center;
-          } */
     </style>
   </head>
   <body>
@@ -187,21 +159,6 @@
           <h3 style="margin: 0px; color: #2b2b2b;">Podporiť platbou na účet:</h3>
           <img src="assets/img/QR_CU_Pauli_no_msg_no_sum.png" style="max-height:250px;margin:16px; margin-top:10px; margin-bottom:10px">
           <h5 style="font-size: 13px; color: #2b2b2b;">IBAN: SK77 1100 0000 0029 3326 3792<br />SWIFT: TATRSKBX resp. TATRSKBXXXX<br />Názov účtu: Paulína Hírešová</h5>
-        
-          <!-- <div style="display: flex;">
-            <div>
-              <h4>Podporiť cez PayPal alebo kartou:</h4>
-            </div>
-            <div style="padding-top:5px;">
-              <!-- PayPal Donate Button --><!-- 
-              <form action="https://www.paypal.com/donate" method="post" target="_top">
-                <input type="hidden" name="hosted_button_id" value="BWXQJ9XW2JCC4" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-                  title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_SK/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-            </div>
-          </div> -->
         </div>
         <br />
       </header>
@@ -227,39 +184,6 @@
           </button>
         </div>
       </section>
-      <!--
-      <footer style="position: static;">
-        <small>
-          <div class="donated">
-            <p class="donated__header">Už darovali</p>
-            <table class="donated__table">
-                <colgroup>
-                  <col>
-                  <col>
-                  <col style="min-width: 8ch;">
-                </colgroup>
-                <tbody>
-                    {% for darca in site.data.darcovia %}
-                        <tr class="donated__row">
-                            <td class="donated__col">{{ darca.meno }}
-                            </td>
-                            <td class="donated__col">{{ darca.sprava }}
-                            </td>
-                            <td class="donated__col">{{ darca.suma }} €
-                            </td>
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-            <div class="donated_legend">
-                {{ site.data.darcovia | size }}
-                darov
-            </div>
-          </div>
-        </small>
-        <br /><br />
-      </footer>
-      -->
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
