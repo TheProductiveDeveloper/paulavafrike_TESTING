@@ -47,6 +47,7 @@ Ak by ste sa chceli stať súčasťou tohto dobrodružstva a dostávať bližši
 
 Paulína Hírešová
 </div>
+
 <br />
 <img src="assets/img/class.jpeg" alt="Trieda Complexo Escolar Dom Bosco do Sambizanga" style="border-radius: 20px;" class="w3-card" />
 <br /><br />
